@@ -10,7 +10,7 @@ int main()
 	else if (score >= 79)
 		printf("B");
 	else if (score >= 71)
-		printf("C");
+		printf("C %d",79 - score);
 	else if (score >= 63)
 		printf("D");
 	else if (score >= 12)
